@@ -4,6 +4,7 @@ require("dotenv").config();
 
 const commands = [
         new SlashCommandBuilder().setName('hello').setDescription('Replies with pong!'),
+        // new SlashCommandBuilder().setName('ticket').setDescription('Generates ticket'),
     ]
     .map(command => command.toJSON());
 
